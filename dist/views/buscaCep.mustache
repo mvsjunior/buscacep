@@ -33,8 +33,9 @@
 
             <h1 class="title">CONSULTA CEP</h1>
         <form method="GET" action="cep" class="form-cep-query">
-            <input type="text" size=8 maxlength=8 name="cep" id="" placeholder="Digite o nº do CEP" value={{cep}} required>
+            <input type="text" maxlength="8" name="cep" id="" placeholder="Digite o nº do CEP" value="{{cep}}" required="">
             <button type="submit" >Enviar</button>
         </form>
 
         
+{{>partials/footer}}
